@@ -1,0 +1,14 @@
+{
+
+"emails":[  
+
+    {"email": "email@email"},
+    {"email": "email1@email"},
+    {"email": "email2@email"},
+    {"email": "email3@email"},
+    {"email": "email4@email"},
+    {"email": "email5@email"}
+
+]
+
+}

@@ -1,0 +1,26 @@
+<br><br><br><br>
+
+
+<p>Lista de Alunos</p>
+
+<div>
+
+<div class="lado1">
+
+  <a *ngFor="let aluno of alunos" [routerLink]="[aluno.id]">
+
+    {{ aluno.nome }}
+
+    <br>
+
+  </a>
+
+</div>
+
+<div class="lado2">
+
+  <router-outlet></router-outlet> <!-- faz rotas filhas funcionarem -->
+
+</div>
+
+</div>

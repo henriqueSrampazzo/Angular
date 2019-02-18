@@ -1,0 +1,15 @@
+.lado1{
+
+    float: left;
+    text-align: center;
+
+}
+
+.lado2{
+
+    position: absolute fixed ;
+    float: right;
+    margin-top: -60px;
+    text-align: center;
+
+}

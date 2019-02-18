@@ -1,0 +1,22 @@
+<nav *ngIf="mostrarMenu">
+
+<div class="center">
+
+<li routerLinkActive="active"><a routerLink="/login" >Login</a></li>
+<li routerLinkActive="active"><a routerLink="" >Home</a></li>
+<li routerLinkActive="active"><a routerLink="/cursos" [queryParams]={pagina:1}>Cursos</a></li>
+<!-- <li routerLinkActive="active"><a [routerLink]="['curso',idCurso.value]" >Curso com ID</a></li> -->
+<li routerLinkActive="active"><a routerLink="/alunos">Alunos</a></li>
+
+</div>
+
+</nav>
+
+<!-- <p>Entre com o Id do curso</p>
+<input #idCurso> -->
+
+<div>
+
+<router-outlet></router-outlet>
+
+</div>

@@ -1,0 +1,25 @@
+<h5>
+  Criar/Editar Aluno
+</h5>
+
+<div>
+
+  <div>
+    <label for="disabled" class="active"># </label>
+    <input disabled [(ngModel)]="aluno.id" id="disabled" type="text">
+
+  </div>
+
+  <div>
+    <label for="nome" class="active">Nome: </label>
+    <input id="nome" [(ngModel)]="aluno.nome" class="validate" (input)="onInput()">
+
+  </div>
+
+  <div>
+    <label for="email" class="active">Email: </label>
+    <input id="email" [(ngModel)]="aluno.email" type="email" class="validate">
+
+  </div>
+
+</div>

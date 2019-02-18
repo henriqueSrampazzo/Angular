@@ -1,0 +1,24 @@
+<p fundoAmarelo>Texto com fundo amarelo.</p>
+
+<button fundoAmarelo>Botão com fundo amarelo</button>
+
+<p hightlightMouse>Texto com hightlight quando passo o mouse</p>
+
+<p [hightlight]="'red'" [defaultColors] ="'grey'">Texto com hightlight com cores customizadas</p>
+
+<div *ngIf="mostrarCursos">
+
+    Lista de cursos aqui:
+  
+  </div>
+  
+  <div *ngElse="mostrarCursos">
+  
+    Não existem cursos para exibir!
+  
+  </div>
+  
+  <br>
+  
+  <button (click)="onMostrarCursos()">Mostrar o esconder cursos</button>
+  
