@@ -3,16 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '', pathMatch: 'full', redirectTo: 'cursos'
+    path: '', pathMatch: 'full', redirectTo:'cursos'
   },
   {
     path: 'cursos',
     loadChildren: './cursos/cursos.module#CursosModule'
-  }//,
-  // {
-  //   path: 'rxjs-poc',
-  //   loadChildren: './unsubscribe-rxjs/unsubscribe-rxjs.module#UnsubscribeRxjsModule'
-  // }
+  },
+  {
+    path: 'rxjs-poc',
+    loadChildren: './unsubscribe-rxjs/unsubscribe-rxjs.module#UnsubscribeRxjsModule'
+  }
 ];
 
 @NgModule({
